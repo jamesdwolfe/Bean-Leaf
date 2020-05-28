@@ -1,0 +1,26 @@
+package com.example.beanleaf;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+
+public class viewCharts extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_view_charts);
+    }
+
+    public void sevenDays(View v){
+        Intent i = new Intent(this, BarChartActivity.class);
+        startActivity(i);
+    }
+
+    public void threeWeeks(View v){
+        Intent i = new Intent(this, BarChartActivity2.class);
+        startActivity(i);
+    }
+}

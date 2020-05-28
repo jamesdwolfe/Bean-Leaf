@@ -1,0 +1,22 @@
+<resources>
+    <!--
+    To get a Google Maps API key, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=21:BB:8F:70:D3:99:5B:96:3F:B3:66:FF:6F:F5:06:66:C5:82:EF:05%3Bcom.example.beanleaf
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    21:BB:8F:70:D3:99:5B:96:3F:B3:66:FF:6F:F5:06:66:C5:82:EF:05
+
+    SHA-1 certificate fingerprint:
+    21:BB:8F:70:D3:99:5B:96:3F:B3:66:FF:6F:F5:06:66:C5:82:EF:05
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyC375RPpDopEhxfNasDCi86xTTNrLgU744</string>
+</resources>
